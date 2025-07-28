@@ -1,11 +1,8 @@
 def check(string):
-   if string.startswith('B'):
-    return print("String começa com a letra 'B'")
-   elif string.endswith('A'):
-    return print("String começa com a letra 'A'")
-
-   return print("String não começa com 'B' nem termina com 'A'")
-
+   if string.startswith('B') and string.endswith('a'):
+      return print("String começa com a letra 'B' e termina com a letra 'a'")
+   else:
+      return False
 
 name = input("Digite seu nome:")
 check(name)
