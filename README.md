@@ -1,3 +1,12 @@
+Antes de começar verifique os requisitos do projeto:
+```
+-Python 3.13.3 (ou qualquer versão Python 3.x compatível)
+
+```
+
+
+
+
 -🧪 Pergunta 1
 Escreva uma função que determina se uma string termina com ‘A’ e começa com 'B'.<br>
 
